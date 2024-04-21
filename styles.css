@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #CAFDFF;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    background-color: #EADCFF;
+    padding: 24px;
+    align-items: center;justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.home__img {
+    width: 100%;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0px 24px 0;
+}
+
+button {
+    background-color: #05C7CF;
+    color: whitesmoke;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+
+#About {
+    padding: 48px 0;
+    background-color: #F8FFDC;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__desc {
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.about__img--wrapper {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+.section__desc--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__desc--para {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+/* DISCORD DISCORD DISCORD DISCORD DISCORD DISCORD DISCORD DISCORD  */
+
+#Discord {
+    background-color: #CEFEFF;
+}
+
+#Contact {
+    background-color: #DCE9FF;
+    padding: 48px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+margin-bottom: 24px;
+font-size: 20px;
+padding: 6px 12px;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 24px;
+}
+
+footer {
+    background-color: #AAF5FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
+}
+
+/* RESPONSIVENESS RESPONSIVENESS RESPONSIVENESS RESPONSIVENESS RESPONSIVENESS RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+.row {
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.home__desc {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__desc--button {
+    max-width: 240px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28px;
+}
+
+ul {
+    display: none;
+}
+
+.section__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__desc--wrapper {
+    width: 100%;
+}
+
+#discord .section__desc {
+    flex-direction: column-reverse;
+}
+
+footer {
+    padding: 48px 24px
+}
+
+.footer__logo {
+    max-width: 360px;
+}
+
+.footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+}
+
+.footer__links {
+    margin-bottom: 24px;
+
+}
+
+}
+
+
